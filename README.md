@@ -1,6 +1,6 @@
 # Backend Developer Learning Roadmap
 
-This repository serves as a comprehensive learning roadmap for aspiring backend developers. It includes checklists covering general knowledge, best practices, Python proficiency, collaborative tools, design principles, and an introduction to basic AI concepts like Generative AI. Use this roadmap to guide your learning journey, track your progress, and enhance your skills in backend development.
+This repository serves as a comprehensive learning roadmap for aspiring backend developers. It includes checklists covering general knowledge, best practices, Python proficiency, collaborative tools and design principles. Use this roadmap to guide your learning journey, track your progress, and enhance your skills in backend development.
 
 Feel free to fork and customize this roadmap based on your preferences and career goals by forking this repository and editing the `README.md` file.
 
