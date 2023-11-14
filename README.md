@@ -84,19 +84,19 @@ Feel free to fork and customize this roadmap based on your preferences and caree
   - Install Git on your local machine.
   - Set up your first Git repository.
   - Learn the basic Git commands: `init`, `add`, `commit`, `status`, `log`.
-- 🟡⭐⭐⭐ [ ] **Version Control Systems**: Deepen your understanding of Git.
+- [ ] 🟡⭐⭐⭐ **Version Control Systems**: Deepen your understanding of Git.
   - Explore the three states in Git: working directory, staging area, and repository.
   - Understand the Git lifecycle: working with branches, commits, and merges.
   - Grasp the importance of commit messages and writing meaningful ones.
   - Explore Git remotes and how to collaborate with others using repositories on platforms like GitHub or GitLab.
-- 🔴⭐⭐⭐ [ ] **Git Flow: Familiarize yourself with Git branching strategies using Git Flow. Learn concepts like feature branches, release branches, and hotfix branches.**
+- [ ] 🔴⭐⭐⭐ **Git Flow: Familiarize yourself with Git branching strategies using Git Flow. Learn concepts like feature branches, release branches, and hotfix branches.**
   - Learn about the main branches in Git Flow: `master`, `develop`.
   - Understand the purpose of feature branches and how to create, merge, and delete them.
   - Explore release branches and how they facilitate versioning.
   - Understand hotfix branches and their role in addressing critical issues in production.
   - Familiarize yourself with advanced Git Flow concepts like supporting branches (`support`), and feature toggles.
-- 🟢⭐⭐ **Semantic Versioning**: Learn what does each number in a version means. [SemVer](https://semver.org/)
-- 🟢⭐ [ ] **Code Reviews**: Understand the importance of code reviews and how to conduct them effectively.
+- [ ] 🟢⭐⭐ **Semantic Versioning**: Learn what does each number in a version means. [SemVer](https://semver.org/)
+- [ ] 🟢⭐ **Code Reviews**: Understand the importance of code reviews and how to conduct them effectively.
 
 ## Python Knowledge
   
