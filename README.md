@@ -28,23 +28,23 @@ Feel free to fork and customize this roadmap based on your preferences and caree
 
 ## General Knowledge and Best Practices
 
-- [ ] 🟢⭐⭐ Foundational Concepts: Understand programming logic, algorithms, and data structures.
+- [ ] 🟢⭐⭐ **Foundational Concepts**: Understand programming logic, algorithms, and data structures.
   - [ ] 🟢⭐⭐⭐ Programming Logic: Learn about control structures, loops, and conditional statements.
   - [ ] 🟡⭐ Algorithms: Understand basic algorithms like sorting and searching.
   - [ ] 🟢⭐⭐ Data Structures: Learn about different data structures like arrays, linked lists, stacks, queues, trees, and graphs.
-- [ ] 🟢⭐⭐ Coding Standards and Best Practices: Familiarize yourself with clean code principles.
+- [ ] 🟢⭐⭐ **Coding Standards and Best Practices**: Familiarize yourself with clean code principles.
   - [ ] 🟢⭐⭐ Naming Conventions: Learn about the importance of meaningful and consistent naming.
   - [ ] 🟢⭐ Code Formatting: Understand the importance of proper indentation and code organization.
   - [ ] 🟢 Commenting: Learn how to write effective comments.
   - [ ] 🟢⭐⭐ Refactoring: Understand how to improve and clean up your code without changing its behavior.
-- [ ] 🟡⭐⭐ Command Line and Scripting: Gain proficiency in using the command line and scripting with Bash.
+- [ ] 🟡⭐⭐ **Command Line and Scripting**: Gain proficiency in using the command line and scripting with Bash.
   - [ ] 🟢⭐⭐ Basic Commands: Learn basic command line commands like `ls`, `cd`, `rm`, `cp`, `mv`, etc.
   - [ ] 🟢⭐⭐ File System Navigation: Understand how to navigate the file system using the command line.
   - [ ] 🟡 Command Line Tools: Familiarize yourself with command line tools like `grep`, `awk`, `sed`, etc.
      
 ## Database Management
 
-- [ ] 🟢⭐⭐⭐ Database Basics: Databases are organized collections of data. They come in many types, including relational databases, NoSQL databases, graph databases, and time-series databases. Understanding the basics of these databases and when to use them is crucial for backend development.
+- [ ] 🟢⭐⭐⭐ **Database Basics**: Databases are organized collections of data. They come in many types, including relational databases, NoSQL databases, graph databases, and time-series databases. Understanding the basics of these databases and when to use them is crucial for backend development.
   - [ ] 🟡⭐⭐ Relational Databases: Learn about relational databases and their principles.
   - [ ] 🟡⭐⭐ NoSQL Databases: Explore NoSQL databases and their principles.
   - [ ] 🟡⭐ Graph Databases: Understand graph databases and their principles.
@@ -53,16 +53,16 @@ Feel free to fork and customize this roadmap based on your preferences and caree
 - [ ] 🟡⭐⭐ **Database Design**: Learn about database design and normalization.
   - [ ] 🟢⭐ Entity Relationship Diagrams (ERDs): Learn how to create ERDs for database design.
   - [ ] 🟡⭐⭐ Database Normalization: Understand the importance of database normalization and how to normalize databases.
+  - [ ] 🟡⭐ **Database Denormalization**: Understand database denormalization and its use cases.
   - [ ] 🟡⭐⭐ SQL and NoSQL: Understand the difference between SQL and NoSQL databases and when to use each.
   - [ ] 🟡⭐ ACID and CAP Theorem: Learn about the ACID properties of transactions and the CAP theorem.
-- [ ] 🟡⭐ Database Indexing: Learn about database indexing and how to create indexes.
-- [ ] 🟡⭐ Database Sharding: Explore database sharding and its use cases.
-- [ ] 🟡⭐ Database Replication: Understand database replication and its use cases.
-- [ ] 🟡⭐ Database Partitioning: Learn about database partitioning and its use cases.
-- [ ] 🟡⭐ Database Denormalization: Understand database denormalization and its use cases.
-- [ ] 🟡⭐ Database Backup and Recovery: Learn how to back up and recover databases.
-- [ ] 🟡⭐ Database Migration: Understand database migration and its use cases.
-- [ ] 🟡⭐ Database Scaling: Learn about database scaling and its use cases.
+- [ ] 🟡⭐⭐ **Database Backup and Recovery**: Learn how to back up and recover databases.
+- [ ] 🟡⭐⭐ **Database Migration**: Understand database migration and its use cases.
+- [ ] 🟡⭐ **Database Indexing**: Learn about database indexing and how to create indexes.
+- [ ] 🟡⭐ **Database Sharding**: Explore database sharding and its use cases.
+- [ ] 🟡⭐ **Database Replication**: Understand database replication and its use cases.
+- [ ] 🟡⭐ **Database Partitioning**: Learn about database partitioning and its use cases.
+- [ ] 🟡⭐ **Database Scaling**: Learn about database scaling and its use cases.
 - [ ] 🟡⭐⭐ **Relational Databases**:
   - [ ] 🟢⭐ SQLite
   - [ ] 🟢⭐ PostgreSQL
@@ -103,8 +103,6 @@ Feel free to fork and customize this roadmap based on your preferences and caree
 - [ ] 🟢⭐⭐⭐ **Core Python**: Master the basics of Python programming. This includes understanding variables, data types, operators, control flow, functions, and error handling.
 - [ ] 🟡⭐⭐ **Environment Setup**: Set up your Python development environment. Python has several tools to help manage packages and dependencies. This includes virtual environments and package managers like pip. Here are some tools for creating isolated environments:
   - [ ] 🟢⭐ Venv: Python's built-in tool for creating virtual environments.
-  - [ ] 🟢⭐ Pipenv: A tool that combines package management and virtual environments into one.
-  - [ ] 🟢⭐ Virtualenv: A tool to create isolated Python environments.
   - [ ] 🟢⭐ Poetry: A tool for dependency management and packaging in Python.
 - [ ] 🟡⭐⭐⭐ **Object-Oriented Programming (OOP)**: Understand OOP principles and inheritance in Python.
 - [ ] 🟢⭐ **Python Standard Library**: Familiarize yourself with the Python standard library and its modules. 
@@ -117,10 +115,8 @@ Feel free to fork and customize this roadmap based on your preferences and caree
   - [ ] 🟡⭐⭐ SQLAlchemy
   - [ ] 🟡⭐⭐ Django ORM
 - [ ] **Frameworks**:
-  - [ ] 🟢⭐⭐ Flask
   - [ ] 🟡⭐⭐ Django
   - [ ] 🟡⭐⭐ FastAPI
-  - [ ] 🟡⭐ LiteStar
 - [ ] **Deployment**:
   - [ ] 🟢⭐ Uvicorn
   - [ ] 🟢⭐ Gunicorn
@@ -149,10 +145,10 @@ Feel free to fork and customize this roadmap based on your preferences and caree
 
 ## Web Services
   
-- [ ] 🟡⭐⭐⭐ APIs and Web Services: APIs, or Application Programming Interfaces, allow different software applications to communicate with each other. Web services are a type of API that operate over the web.
+- [ ] 🟡⭐⭐⭐ **APIs and Web Services**: APIs, or Application Programming Interfaces, allow different software applications to communicate with each other. Web services are a type of API that operate over the web.
   - [ ] 🟢⭐ OpenAPI: The OpenAPI Specification (formerly Swagger) is a specification for building APIs. It provides a way to describe and document a RESTful API.
   - [ ] 🟡 GraphQL: An alternative to REST, GraphQL allows clients to define the structure of the data required, and the same structure of the data is returned from the server.
-- [ ] 🟡⭐⭐ Services and Microservices: Understand the basics of services and microservices.
+- [ ] 🟡⭐⭐ **Services and Microservices**: Understand the basics of services and microservices.
   - [ ] 🟢⭐ Isolation: Learn about isolation in microservices.
   - [ ] 🟡⭐ Communication: Explore communication between microservices.
   - [ ] 🟢 Service Discovery: Understand service discovery and networking in microservices.
@@ -221,8 +217,17 @@ Feel free to fork and customize this roadmap based on your preferences and caree
 ## Security Practices
 
 - [ ] 🟢⭐⭐ **Web Security Basics**: Web security involves protecting websites or web applications by detecting, preventing and responding to attacks. Topics include Cross-Site Scripting (XSS), SQL Injection, Cross-Site Request Forgery (CSRF), and more.
+- [ ] 🟢⭐⭐ **OWASP Top 10**: Familiarize yourself with the OWASP Top 10 most critical web application security risks.
+- [ ] 🔴⭐⭐⭐ **Secure Authentication and Authorization**: Learn about secure authentication and authorization mechanisms. Understand the importance of strong password policies, multi-factor authentication (MFA), and secure session management. Implement proper access control to ensure that only authorized users can perform specific actions and access sensitive information.
+- [ ] 🔴⭐⭐⭐ **Secure Communication**: Gain knowledge about secure communication protocols such as HTTPS (HTTP over SSL/TLS) and the importance of encrypting sensitive data in transit. Learn about certificate management, secure configuration of web servers, and secure transmission of data over networks.
+- [ ] 🟡⭐ **Secure Data Storage**: Understand how to securely store sensitive data, including passwords, personally identifiable information (PII), and other confidential information. Learn about encryption, hashing, and salting techniques to protect data at rest. Implement secure data storage practices to prevent unauthorized access and data breaches.
+- [ ] 🔴⭐ **Security Testing and Vulnerability Assessments**: Learn about various security testing techniques, including penetration testing, vulnerability scanning, and code reviews. Understand the importance of regularly testing applications and infrastructure for vulnerabilities. Familiarize yourself with tools and methodologies used in security testing to identify and address potential weaknesses.
+- [ ] 🟡⭐⭐⭐ **Secure Software Development Lifecycle (SDLC)**: Incorporate security into the software development lifecycle. Understand secure coding practices, such as input validation, output encoding, proper error handling, and secure use of libraries and frameworks. Implement security checks and code reviews throughout the development process to identify and fix security issues early on.
+- [ ] 🔴⭐⭐ **Security Incident Response**: Learn how to respond to security incidents effectively. Understand the importance of incident response plans, incident detection and analysis, containment, eradication, and recovery. Familiarize yourself with incident response frameworks and best practices to minimize the impact of security incidents.
+- [ ] 🟡⭐⭐ **Cloud Security**: Gain knowledge of security best practices for cloud environments, such as Amazon Web Services (AWS), Microsoft Azure, or Google Cloud Platform (GCP). Understand the shared responsibility model, secure configuration of cloud services, identity and access management, and monitoring and logging in the cloud.
+- [ ] 🟡⭐⭐ **Secure APIs**: Understand the security considerations for designing and implementing secure APIs. Learn about API authentication, authorization, input validation, and protection against common API vulnerabilities like injection attacks, broken object level authorization, and insecure direct object references.
 - [ ] 🟡⭐ **Container Security**: Understand security best practices for Docker containers and Kubernetes.
-- [ ] 🟡⭐ **OWASP Top 10**: Familiarize yourself with the OWASP Top 10 most critical web application security risks.
+
 
 ## Project Management and Documentation
 
