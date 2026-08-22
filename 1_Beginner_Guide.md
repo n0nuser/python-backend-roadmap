@@ -25,6 +25,9 @@ If you only do ten things at this level, do these:
 
 **Portfolio project**: a CRUD API (FastAPI or Django) with authentication, a PostgreSQL database and a test suite, deployed publicly with a README explaining how to run it.
 
+> [!NOTE]
+> The project deliberately reaches past this guide: the framework, Pydantic models, authentication and testing are covered in the [intermediate guide](2_Intermediate_Guide.md). Treat it as the bridge between the two levels — build it while you work through the intermediate checklist, not before.
+
 ## General Knowledge and Best Practices
 
 * [ ] 🟢⭐⭐ **Foundational Concepts**: Understand programming logic, algorithms, and data structures.
