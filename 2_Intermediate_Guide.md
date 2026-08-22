@@ -61,7 +61,8 @@ If you only do ten things at this level, do these:
 * [ ] 🟢⭐ **Python Standard Library**: Familiarize yourself with the Python standard library and its modules.
 * [ ] **Libraries**:
   * [ ] 🟢⭐⭐ Pydantic
-  * [ ] 🟡⭐⭐ HTTPX
+  * [ ] 🟡⭐⭐ HTTPX: the default HTTP client for new code — sync and async in one API.
+  * [ ] 🟢⭐ Requests: no longer the first choice for new services, but you will inherit it everywhere.
   * [ ] 🟡⭐⭐ SQLAlchemy
   * [ ] 🟡⭐⭐ Django ORM
   * [ ] 🟡⭐ NumPy
@@ -80,11 +81,12 @@ If you only do ten things at this level, do these:
 * [ ] 🟡⭐ **Decorators**: Learn how to use decorators for advanced Python programming.
 * [ ] 🟡⭐⭐ **Data Classes**: Understand data classes for solving complex structuring problems.
 
-### Testing and Quality Assurance
+## Testing and Quality Assurance
 
 > [!TIP]
 > Testing is how you earn the right to deploy on Friday. The parts that make integration tests trustworthy matter more than coverage percentages.
 
+* [ ] 🟢⭐⭐ **What Kind of Test Is This?**: unit tests (one behaviour, no I/O, milliseconds), integration tests (your code against a real database/broker), end-to-end tests (the whole system through its public interface) — knowing which one you are writing decides how you isolate it and how many you should have.
 * [ ] 🟡⭐⭐⭐ **pytest in Depth**: The backbone of Python testing. ([pytest docs](https://docs.pytest.org/))
   * Fixtures and scopes, `conftest.py`, shared test setup.
   * Parametrization and markers.
@@ -97,6 +99,7 @@ If you only do ten things at this level, do these:
 * [ ] 🟡⭐ **Property-Based Testing**: [Hypothesis](https://hypothesis.readthedocs.io/) for parsers, serializers, and money/date logic.
 * [ ] 🟡⭐⭐ **Contract Testing**: consumer-driven contracts (Pact) or schema compatibility checks between services, so a producer change cannot silently break consumers.
 * [ ] 🟢⭐⭐ **Coverage, Honestly**: `coverage.py`, branch coverage, why 100% is not the goal — mutation testing (`mutmut`/`cosmic-ray`) is the real quality signal.
+* [ ] 🟡⭐ **Testing Across Python Versions**: `tox` or `nox` to run the suite on every version you claim to support — essential for libraries and shared internal packages, and how CI matrices are usually driven.
 * [ ] 🟡⭐⭐ **Test Pyramid & Flakiness**: fast unit majority, targeted integration, thin e2e; quarantine and *fix* flaky tests; freeze time (`freezegun`/`time-machine`).
 * [ ] 🟡⭐ **Load and Performance Testing**: k6 or Locust, and treating a latency regression as a failing test.
 

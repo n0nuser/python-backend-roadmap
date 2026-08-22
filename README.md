@@ -38,7 +38,7 @@ Located [here!](2_Intermediate_Guide.md).
 * **Database Management**: Database Backup and Recovery, Database Migration, Database Indexing, Time Series Databases, Search Engines.
 * **Version Control and Collaboration**: Deepen understanding of Git, Git Flow, Semantic Versioning, Code Reviews.
 * **Python Knowledge**: Object-Oriented Programming (OOP), Python Standard Library, Libraries, Error Handling, Frameworks, Documentation, Generators, Decorators, Data Classes.
-* **Testing and Quality Assurance**: pytest in Depth, Real Dependencies with Testcontainers, Test Doubles, API Testing, Property-Based Testing, Contract Testing, Coverage, Test Pyramid & Flakiness, Load Testing.
+* **Testing and Quality Assurance**: What Kind of Test Is This?, pytest in Depth, Real Dependencies with Testcontainers, Test Doubles, API Testing, Property-Based Testing, Contract Testing, Coverage, Testing Across Python Versions, Test Pyramid & Flakiness, Load Testing.
 * **Asynchronous Programming**: Event Loop Mental Model, `def` vs `async def` in FastAPI, Structured Concurrency, Concurrency Primitives, Async I/O Clients, ASGI, Streaming Responses, Debugging Async.
 * **Running Services in Production**: 12-Factor App, Configuration Management, Lifecycle, Process Model, Container Images, Reverse Proxy/Ingress, Where to Run It, Environments.
 * **Web Services**: Services and Microservices.
@@ -68,6 +68,6 @@ Located [here!](3_Advanced_Guide.md).
 * **Containerization and Orchestration**: Kubernetes Deployment, Kubernetes Services, Helm.
 * **Reliability Engineering**: SLIs/SLOs/Error Budgets, Graceful Degradation, Zero-Downtime Schema Migrations, Progressive Delivery, GitOps, Data Safety, Incident Response, Debugging Production, Chaos Engineering, DORA Metrics, Cost/FinOps.
 * **Security Practices**: Security Testing and Vulnerability Assessments, Secure Software Development Lifecycle (SDLC), Security Incident Response, Cloud Security, Secure APIs.
-* **Cloud Services**: Serverless Computing, Infrastructure as Code (IaC), Managed Services.
+* **Cloud Services**: Infrastructure as Code (state, modules, plan review, drift, policy as code), Serverless Computing, Managed Services.
 
 **Portfolio project**: a small multi-service system communicating over events, traced end to end, deployed with GitOps and guarded by SLO-based alerts.

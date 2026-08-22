@@ -87,12 +87,12 @@ If you only do ten things at this level, do these:
 
 ## Design Knowledge
 
-* [ ] 🟡 **Architectural Patterns**
-  * [ ] 🟡 Event-Driven Architecture: Understand the event-driven architecture pattern and its use cases. The full distributed-systems treatment lives in the section above.
+* [ ] 🟡⭐ **Architectural Patterns**
+  * [ ] 🟡⭐ Event-Driven Architecture: Understand the event-driven architecture pattern and its use cases. The full distributed-systems treatment lives in the section above.
   * [ ] 🟡 Functional Programming: Learn about functional programming concepts and how to apply them in Python.
-* [ ] 🟡 **Approaches**
-  * [ ] 🟡 Test Driven Development: A software development process that relies on the repetition of a very short development cycle: first the developer writes a failing automated test case that defines a desired improvement or new function, then produces code to pass that test and finally refactors the new code to acceptable standards.
-  * [ ] 🟡 Behavior Driven Development: A software development methodology in which an application is specified and designed by describing how its behavior should appear to an outside observer.
+* [ ] 🟡⭐ **Approaches**
+  * [ ] 🟡⭐⭐ Test Driven Development: A software development process that relies on the repetition of a very short development cycle: first the developer writes a failing automated test case that defines a desired improvement or new function, then produces code to pass that test and finally refactors the new code to acceptable standards.
+  * [ ] 🟡⭐ Behavior Driven Development: A software development methodology in which an application is specified and designed by describing how its behavior should appear to an outside observer.
 
 ## API Design and Evolution
 
@@ -148,10 +148,18 @@ If you only do ten things at this level, do these:
 * [ ] 🟡⭐⭐⭐ **Secure Software Development Lifecycle (SDLC)**: Incorporate security into the software development lifecycle. Understand secure coding practices, such as input validation, output encoding, proper error handling, and secure use of libraries and frameworks. Implement security checks and code reviews throughout the development process to identify and fix security issues early on.
 * [ ] 🔴⭐⭐ **Security Incident Response**: Learn how to respond to security incidents effectively. Understand the importance of incident response plans, incident detection and analysis, containment, eradication, and recovery. Complements the general incident response practice in Reliability Engineering above.
 * [ ] 🟡⭐⭐ **Cloud Security**: Gain knowledge of security best practices for cloud environments, such as Amazon Web Services (AWS), Microsoft Azure, or Google Cloud Platform (GCP). Understand the shared responsibility model, secure configuration of cloud services, identity and access management, and monitoring and logging in the cloud.
-* [ ] 🟡⭐⭐ **Secure APIs**: Understand the security considerations for designing and implementing secure APIs. Learn about API authentication, authorization, input validation, and protection against common API vulnerabilities like injection attacks, broken object level authorization, and insecure direct object references.
+* [ ] 🟡⭐⭐ **Secure APIs**: Covered where the design decisions are made — see [API Security](#api-design-and-evolution) above (object-level authorization, resource consumption limits, injection through every input channel), with the authentication and authorization mechanics in the [intermediate guide](2_Intermediate_Guide.md#security-practices).
 
 ## Cloud Services
 
-* [ ] 🟡⭐ **Serverless Computing**: Understand serverless concepts and frameworks.
-* [ ] 🟢⭐ **Infrastructure as Code (IaC)**: Learn about IaC tools like Terraform and CloudFormation.
-* [ ] 🟡⭐ **Managed Services**: Understand the concept of managed services and when to use them.
+> [!TIP]
+> The Reliability Engineering section above assumes declarative, reviewable infrastructure — GitOps and progressive delivery only work if the environment itself is code.
+
+* [ ] 🟡⭐⭐ **Infrastructure as Code (IaC)**: Terraform/OpenTofu, Pulumi or CDK — and the practices that make IaC safe rather than just declarative.
+  * [ ] 🟡⭐⭐ State: remote state, locking, and why a state file is as sensitive as a credential.
+  * [ ] 🟡⭐⭐ Modules and Environments: composition, per-environment variables, avoiding copy-pasted stacks.
+  * [ ] 🟡⭐⭐ Plan Review: reading a plan diff in a pull request, and never applying an unreviewed destroy.
+  * [ ] 🟡⭐ Drift: detecting manual console changes and reconciling them.
+  * [ ] 🟡⭐ Policy as Code: OPA/Conftest, Checkov or `tfsec` to block insecure resources before apply.
+* [ ] 🟡⭐ **Serverless Computing**: Understand serverless concepts and frameworks — cold starts, execution limits, per-request pricing, and connection pooling against a database that was not designed for a thousand ephemeral clients.
+* [ ] 🟡⭐ **Managed Services**: Understand the concept of managed services and when to use them — the build-vs-buy trade-off, lock-in, and the operational burden you are actually paying to avoid.
